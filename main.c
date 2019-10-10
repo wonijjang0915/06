@@ -3,18 +3,25 @@
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-void print_star() 
+int sumTwo(int a, int b)
 {
-    int i;
-	for(i=0; i<10; i++)
-	   printf("*");
+	int output;
+	output = a+b;
+	return output;		  	  
 }
 
-int main(void)
+int square(int n)
 {
-	print_star();
-	print_star();
-	print_star();
-		  	  
-	return 0;
+	return(n*n);
+}
+
+int get_max(int a, int b)
+{
+	if (a>b) return a;
+	else return b;
+}
+
+int main ()
+{
+return 0;
 }
